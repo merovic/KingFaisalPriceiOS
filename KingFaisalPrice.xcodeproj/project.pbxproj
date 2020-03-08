@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18524CFD23BAA45A001FB977 /* logoprize.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18524CFC23BAA459001FB977 /* logoprize.gif */; };
+		1886DAC623D21D3200A45D11 /* WebView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886DAC523D21D3200A45D11 /* WebView2Controller.swift */; };
+		1886DAC823D22C9C00A45D11 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886DAC723D22C9C00A45D11 /* ImageViewController.swift */; };
+		1886DACA23D22CAF00A45D11 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886DAC923D22CAF00A45D11 /* VideoViewController.swift */; };
+		1886DAD223D8E1EA00A45D11 /* Ln.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886DAD123D8E1EA00A45D11 /* Ln.swift */; };
+		18B38A0C23A515D50022C39F /* choiceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38A0B23A515D50022C39F /* choiceItem.swift */; };
+		18B38A0E23A520300022C39F /* SelectWinnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38A0D23A520300022C39F /* SelectWinnersViewController.swift */; };
+		18B38A1023A550AA0022C39F /* WinnersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38A0F23A550AA0022C39F /* WinnersListViewController.swift */; };
+		18B38A1223A558720022C39F /* winnerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38A1123A558720022C39F /* winnerItem.swift */; };
+		18B38A1423A559420022C39F /* WinnersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38A1323A559420022C39F /* WinnersTableViewCell.swift */; };
 		18B3FA5A23A40DD700EAADCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3FA5923A40DD700EAADCF /* AppDelegate.swift */; };
 		18B3FA5C23A40DD700EAADCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3FA5B23A40DD700EAADCF /* SceneDelegate.swift */; };
 		18B3FA5E23A40DD700EAADCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3FA5D23A40DD700EAADCF /* ViewController.swift */; };
@@ -15,6 +25,13 @@
 		18B3FA6623A40DD900EAADCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B3FA6423A40DD900EAADCF /* LaunchScreen.storyboard */; };
 		18B3FA7123A40DD900EAADCF /* KingFaisalPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3FA7023A40DD900EAADCF /* KingFaisalPriceTests.swift */; };
 		18B3FA7C23A40DD900EAADCF /* KingFaisalPriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3FA7B23A40DD900EAADCF /* KingFaisalPriceUITests.swift */; };
+		18B3FA8C23A4320100EAADCF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3FA8B23A4320100EAADCF /* WebViewController.swift */; };
+		18F943D423BD33CF00783E30 /* prizenew.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18F943D323BD33CF00783E30 /* prizenew.gif */; };
+		18F943D623BD35EF00783E30 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F943D523BD35EF00783E30 /* SplashViewController.swift */; };
+		18F943D823BD36F600783E30 /* NaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F943D723BD36F600783E30 /* NaviViewController.swift */; };
+		1D2C102E25AAAED0D13D94AA /* Pods_KingFaisalPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FB6274516CC7B82084D56A /* Pods_KingFaisalPrice.framework */; };
+		5A1A3BBD5F6740831AFC0AA5 /* Pods_KingFaisalPriceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3525656B000CC351456F20A /* Pods_KingFaisalPriceUITests.framework */; };
+		FF2632F83EF1A6B0EBC26843 /* Pods_KingFaisalPriceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DA9502E0FF49EB8FC64A4 /* Pods_KingFaisalPriceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047DA9502E0FF49EB8FC64A4 /* Pods_KingFaisalPriceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingFaisalPriceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18524CFC23BAA459001FB977 /* logoprize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logoprize.gif; sourceTree = "<group>"; };
+		1886DAC523D21D3200A45D11 /* WebView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView2Controller.swift; sourceTree = "<group>"; };
+		1886DAC723D22C9C00A45D11 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1886DAC923D22CAF00A45D11 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		1886DAD123D8E1EA00A45D11 /* Ln.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ln.swift; sourceTree = "<group>"; };
+		1886DAD323D8EB8100A45D11 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		1886DAD423D8EB8100A45D11 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18B38A0B23A515D50022C39F /* choiceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceItem.swift; sourceTree = "<group>"; };
+		18B38A0D23A520300022C39F /* SelectWinnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWinnersViewController.swift; sourceTree = "<group>"; };
+		18B38A0F23A550AA0022C39F /* WinnersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersListViewController.swift; sourceTree = "<group>"; };
+		18B38A1123A558720022C39F /* winnerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winnerItem.swift; sourceTree = "<group>"; };
+		18B38A1323A559420022C39F /* WinnersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewCell.swift; sourceTree = "<group>"; };
 		18B3FA5623A40DD700EAADCF /* KingFaisalPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingFaisalPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B3FA5923A40DD700EAADCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B3FA5B23A40DD700EAADCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,18 @@
 		18B3FA7723A40DD900EAADCF /* KingFaisalPriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingFaisalPriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B3FA7B23A40DD900EAADCF /* KingFaisalPriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFaisalPriceUITests.swift; sourceTree = "<group>"; };
 		18B3FA7D23A40DD900EAADCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B3FA8B23A4320100EAADCF /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		18F943D323BD33CF00783E30 /* prizenew.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = prizenew.gif; sourceTree = "<group>"; };
+		18F943D523BD35EF00783E30 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		18F943D723BD36F600783E30 /* NaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviViewController.swift; sourceTree = "<group>"; };
+		5BDBA5E96D335D7A2D8298DF /* Pods-KingFaisalPriceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFaisalPriceUITests.debug.xcconfig"; path = "Target Support Files/Pods-KingFaisalPriceUITests/Pods-KingFaisalPriceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF8618950CE263A01C25DBC5 /* Pods-KingFaisalPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFaisalPrice.debug.xcconfig"; path = "Target Support Files/Pods-KingFaisalPrice/Pods-KingFaisalPrice.debug.xcconfig"; sourceTree = "<group>"; };
+		B1316D2E1BE88471CCF9A4FC /* Pods-KingFaisalPriceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFaisalPriceUITests.release.xcconfig"; path = "Target Support Files/Pods-KingFaisalPriceUITests/Pods-KingFaisalPriceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6FB6274516CC7B82084D56A /* Pods_KingFaisalPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingFaisalPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA3E50880C3384C832FE400 /* Pods-KingFaisalPriceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFaisalPriceTests.debug.xcconfig"; path = "Target Support Files/Pods-KingFaisalPriceTests/Pods-KingFaisalPriceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6B530B66EAAD0EBB96D8CEE /* Pods-KingFaisalPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFaisalPrice.release.xcconfig"; path = "Target Support Files/Pods-KingFaisalPrice/Pods-KingFaisalPrice.release.xcconfig"; sourceTree = "<group>"; };
+		EE4F47E6F49A9819F2BB9A64 /* Pods-KingFaisalPriceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingFaisalPriceTests.release.xcconfig"; path = "Target Support Files/Pods-KingFaisalPriceTests/Pods-KingFaisalPriceTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3525656B000CC351456F20A /* Pods_KingFaisalPriceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingFaisalPriceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2C102E25AAAED0D13D94AA /* Pods_KingFaisalPrice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2632F83EF1A6B0EBC26843 /* Pods_KingFaisalPriceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1A3BBD5F6740831AFC0AA5 /* Pods_KingFaisalPriceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +128,8 @@
 				18B3FA6F23A40DD900EAADCF /* KingFaisalPriceTests */,
 				18B3FA7A23A40DD900EAADCF /* KingFaisalPriceUITests */,
 				18B3FA5723A40DD700EAADCF /* Products */,
+				AE5BC4AA7345A754E32F7C9E /* Pods */,
+				3B5A7588E8FD6083926C46D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +149,24 @@
 				18B3FA5923A40DD700EAADCF /* AppDelegate.swift */,
 				18B3FA5B23A40DD700EAADCF /* SceneDelegate.swift */,
 				18B3FA5D23A40DD700EAADCF /* ViewController.swift */,
+				18B3FA8B23A4320100EAADCF /* WebViewController.swift */,
+				18B38A0B23A515D50022C39F /* choiceItem.swift */,
+				18B38A0D23A520300022C39F /* SelectWinnersViewController.swift */,
+				18B38A0F23A550AA0022C39F /* WinnersListViewController.swift */,
 				18B3FA5F23A40DD700EAADCF /* Main.storyboard */,
+				18524CFC23BAA459001FB977 /* logoprize.gif */,
+				18F943D323BD33CF00783E30 /* prizenew.gif */,
 				18B3FA6223A40DD900EAADCF /* Assets.xcassets */,
 				18B3FA6423A40DD900EAADCF /* LaunchScreen.storyboard */,
 				18B3FA6723A40DD900EAADCF /* Info.plist */,
+				18B38A1123A558720022C39F /* winnerItem.swift */,
+				18B38A1323A559420022C39F /* WinnersTableViewCell.swift */,
+				18F943D523BD35EF00783E30 /* SplashViewController.swift */,
+				18F943D723BD36F600783E30 /* NaviViewController.swift */,
+				1886DAC523D21D3200A45D11 /* WebView2Controller.swift */,
+				1886DAC723D22C9C00A45D11 /* ImageViewController.swift */,
+				1886DAC923D22CAF00A45D11 /* VideoViewController.swift */,
+				1886DAD123D8E1EA00A45D11 /* Ln.swift */,
 			);
 			path = KingFaisalPrice;
 			sourceTree = "<group>";
@@ -128,6 +189,29 @@
 			path = KingFaisalPriceUITests;
 			sourceTree = "<group>";
 		};
+		3B5A7588E8FD6083926C46D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6FB6274516CC7B82084D56A /* Pods_KingFaisalPrice.framework */,
+				047DA9502E0FF49EB8FC64A4 /* Pods_KingFaisalPriceTests.framework */,
+				F3525656B000CC351456F20A /* Pods_KingFaisalPriceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE5BC4AA7345A754E32F7C9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8618950CE263A01C25DBC5 /* Pods-KingFaisalPrice.debug.xcconfig */,
+				E6B530B66EAAD0EBB96D8CEE /* Pods-KingFaisalPrice.release.xcconfig */,
+				BAA3E50880C3384C832FE400 /* Pods-KingFaisalPriceTests.debug.xcconfig */,
+				EE4F47E6F49A9819F2BB9A64 /* Pods-KingFaisalPriceTests.release.xcconfig */,
+				5BDBA5E96D335D7A2D8298DF /* Pods-KingFaisalPriceUITests.debug.xcconfig */,
+				B1316D2E1BE88471CCF9A4FC /* Pods-KingFaisalPriceUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B3FA8023A40DD900EAADCF /* Build configuration list for PBXNativeTarget "KingFaisalPrice" */;
 			buildPhases = (
+				11681DBEDD8EBB5CC7E1E401 /* [CP] Check Pods Manifest.lock */,
 				18B3FA5223A40DD700EAADCF /* Sources */,
 				18B3FA5323A40DD700EAADCF /* Frameworks */,
 				18B3FA5423A40DD700EAADCF /* Resources */,
+				09141D167B9E11C9EC7E1F28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B3FA8323A40DD900EAADCF /* Build configuration list for PBXNativeTarget "KingFaisalPriceTests" */;
 			buildPhases = (
+				FB15B1C71A408D9C54CD56D7 /* [CP] Check Pods Manifest.lock */,
 				18B3FA6823A40DD900EAADCF /* Sources */,
 				18B3FA6923A40DD900EAADCF /* Frameworks */,
 				18B3FA6A23A40DD900EAADCF /* Resources */,
@@ -170,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B3FA8623A40DD900EAADCF /* Build configuration list for PBXNativeTarget "KingFaisalPriceUITests" */;
 			buildPhases = (
+				96BD3EF64866A258D2ED319B /* [CP] Check Pods Manifest.lock */,
 				18B3FA7323A40DD900EAADCF /* Sources */,
 				18B3FA7423A40DD900EAADCF /* Frameworks */,
 				18B3FA7523A40DD900EAADCF /* Resources */,
@@ -214,6 +302,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 18B3FA4D23A40DD700EAADCF;
 			productRefGroup = 18B3FA5723A40DD700EAADCF /* Products */;
@@ -232,6 +321,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F943D423BD33CF00783E30 /* prizenew.gif in Resources */,
+				18524CFD23BAA45A001FB977 /* logoprize.gif in Resources */,
 				18B3FA6623A40DD900EAADCF /* LaunchScreen.storyboard in Resources */,
 				18B3FA6323A40DD900EAADCF /* Assets.xcassets in Resources */,
 				18B3FA6123A40DD700EAADCF /* Main.storyboard in Resources */,
@@ -254,14 +345,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09141D167B9E11C9EC7E1F28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KingFaisalPrice/Pods-KingFaisalPrice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KingFaisalPrice/Pods-KingFaisalPrice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KingFaisalPrice/Pods-KingFaisalPrice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11681DBEDD8EBB5CC7E1E401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingFaisalPrice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96BD3EF64866A258D2ED319B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingFaisalPriceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB15B1C71A408D9C54CD56D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingFaisalPriceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18B3FA5223A40DD700EAADCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18B3FA5E23A40DD700EAADCF /* ViewController.swift in Sources */,
+				18B38A0C23A515D50022C39F /* choiceItem.swift in Sources */,
+				1886DAC623D21D3200A45D11 /* WebView2Controller.swift in Sources */,
 				18B3FA5A23A40DD700EAADCF /* AppDelegate.swift in Sources */,
 				18B3FA5C23A40DD700EAADCF /* SceneDelegate.swift in Sources */,
+				18F943D823BD36F600783E30 /* NaviViewController.swift in Sources */,
+				1886DAC823D22C9C00A45D11 /* ImageViewController.swift in Sources */,
+				18B38A1023A550AA0022C39F /* WinnersListViewController.swift in Sources */,
+				1886DAD223D8E1EA00A45D11 /* Ln.swift in Sources */,
+				1886DACA23D22CAF00A45D11 /* VideoViewController.swift in Sources */,
+				18B38A1423A559420022C39F /* WinnersTableViewCell.swift in Sources */,
+				18B38A1223A558720022C39F /* winnerItem.swift in Sources */,
+				18B3FA8C23A4320100EAADCF /* WebViewController.swift in Sources */,
+				18B38A0E23A520300022C39F /* SelectWinnersViewController.swift in Sources */,
+				18F943D623BD35EF00783E30 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +490,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				18B3FA6023A40DD700EAADCF /* Base */,
+				1886DAD323D8EB8100A45D11 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +499,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				18B3FA6523A40DD900EAADCF /* Base */,
+				1886DAD423D8EB8100A45D11 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -366,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -380,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -420,7 +613,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,15 +625,18 @@
 		};
 		18B3FA8123A40DD900EAADCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8618950CE263A01C25DBC5 /* Pods-KingFaisalPrice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = RHMG8N8S73;
 				INFOPLIST_FILE = KingFaisalPrice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amirahmed.kfprice.KingFaisalPrice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -450,15 +646,18 @@
 		};
 		18B3FA8223A40DD900EAADCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B530B66EAAD0EBB96D8CEE /* Pods-KingFaisalPrice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = RHMG8N8S73;
 				INFOPLIST_FILE = KingFaisalPrice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amirahmed.kfprice.KingFaisalPrice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -468,6 +667,7 @@
 		};
 		18B3FA8423A40DD900EAADCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA3E50880C3384C832FE400 /* Pods-KingFaisalPriceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +690,7 @@
 		};
 		18B3FA8523A40DD900EAADCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4F47E6F49A9819F2BB9A64 /* Pods-KingFaisalPriceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +713,7 @@
 		};
 		18B3FA8723A40DD900EAADCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDBA5E96D335D7A2D8298DF /* Pods-KingFaisalPriceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +734,7 @@
 		};
 		18B3FA8823A40DD900EAADCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1316D2E1BE88471CCF9A4FC /* Pods-KingFaisalPriceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

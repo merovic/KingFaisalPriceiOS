@@ -1,0 +1,27 @@
+
+/* Class = "UITabBarItem"; title = "الرئيسية"; ObjectID = "1pd-93-7gL"; */
+"1pd-93-7gL.title" = "الرئيسية";
+
+/* Class = "UITabBarItem"; title = "الرئيسية"; ObjectID = "2Ka-gb-JqX"; */
+"2Ka-gb-JqX.title" = "الرئيسية";
+
+/* Class = "UILabel"; text = "Amir Ahmed"; ObjectID = "BiO-fU-KND"; */
+"BiO-fU-KND.text" = "Amir Ahmed";
+
+/* Class = "UIViewController"; title = "الفائزون"; ObjectID = "CZg-za-Xrw"; */
+"CZg-za-Xrw.title" = "الفائزون";
+
+/* Class = "UILabel"; text = "خدمة الأسلام"; ObjectID = "Mba-Xf-QmO"; */
+"Mba-Xf-QmO.text" = "خدمة الأسلام";
+
+/* Class = "UIButton"; normalTitle = "دخول"; ObjectID = "QRm-mY-S31"; */
+"QRm-mY-S31.normalTitle" = "دخول";
+
+/* Class = "UITextField"; placeholder = "بحث أسم الفائز"; ObjectID = "lvB-6h-fa5"; */
+"lvB-6h-fa5.placeholder" = "بحث أسم الفائز";
+
+/* Class = "UIButton"; normalTitle = "أغلاق"; ObjectID = "sYW-jL-M4j"; */
+"sYW-jL-M4j.normalTitle" = "أغلاق";
+
+/* Class = "UINavigationItem"; title = "الرئيسية"; ObjectID = "zVE-m6-wpu"; */
+"zVE-m6-wpu.title" = "الرئيسية";

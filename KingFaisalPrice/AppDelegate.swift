@@ -7,16 +7,54 @@
 //
 
 import UIKit
+import MOLH
 
+@available(iOS 13.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        MOLH.shared.activate(true)
+        
         return true
     }
+    
+    
+    @available(iOS 13.0, *)
+        func swichRoot(){
+            //Flip Animation before changing rootView
+            animateView()
+
+            // switch root view controllers
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            let nav = storyboard.instantiateViewController(withIdentifier: "NaviViewController")
+            
+            let scene = UIApplication.shared.connectedScenes.first
+            if let sd : SceneDelegate = (scene?.delegate as? SceneDelegate) {
+                sd.window!.rootViewController = nav
+            }
+            
+        }
+       @available(iOS 13.0, *)
+        func animateView() {
+            var transition = UIView.AnimationOptions.transitionFlipFromRight
+            if !MOLHLanguage.isRTLLanguage() {
+                transition = .transitionFlipFromLeft
+            }
+           animateView(transition: transition)
+        }
+        
+        @available(iOS 13.0, *)
+        func animateView(transition: UIView.AnimationOptions) {
+            if let delegate = UIApplication.shared.connectedScenes.first?.delegate {
+                UIView.transition(with: (((delegate as? SceneDelegate)!.window)!), duration: 0.5, options: transition, animations: {}) { (f) in
+                }
+            }
+        }
 
     // MARK: UISceneSession Lifecycle
 
