@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3fM-Ix-Dh8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nGj-YA-dss">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -71,24 +71,24 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="King Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ipH-Ix-tko">
-                                <rect key="frame" x="65" y="100" width="284" height="287"/>
+                                <rect key="frame" x="65" y="100" width="284" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="284" id="5mW-CG-NTt"/>
-                                    <constraint firstAttribute="height" constant="287" id="tC2-M4-6Ar"/>
+                                    <constraint firstAttribute="height" constant="200" id="tC2-M4-6Ar"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="t6W-CA-2pN">
-                                <rect key="frame" x="8" y="395" width="398" height="366"/>
+                                <rect key="frame" x="8" y="308" width="398" height="453"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VFK-NW-mNp">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="178"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="221.66666666666666"/>
                                         <connections>
                                             <outlet property="dataSource" destination="BYZ-38-t0r" id="l4m-sZ-fHO"/>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="1uh-Yd-bUS"/>
                                         </connections>
                                     </pickerView>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qI1-rs-ht6">
-                                        <rect key="frame" x="0.0" y="188" width="398" height="178"/>
+                                        <rect key="frame" x="0.0" y="231.66666666666663" width="398" height="221.33333333333337"/>
                                         <connections>
                                             <outlet property="dataSource" destination="BYZ-38-t0r" id="DiA-rg-ac8"/>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="tQh-Wc-kbP"/>
@@ -296,11 +296,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="3qa-97-qFd">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="King Logo" translatesAutoresizingMaskIntoConstraints="NO" id="mrx-W2-FSh">
-                                <rect key="frame" x="65" y="110" width="284" height="150"/>
+                                <rect key="frame" x="65" y="60" width="284" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="284" id="4ku-pR-RUQ"/>
                                     <constraint firstAttribute="height" constant="150" id="grd-kh-gXw"/>
@@ -332,17 +329,6 @@
                                     </pickerView>
                                 </subviews>
                             </stackView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="بحث أسم الفائز" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lvB-6h-fa5">
-                                <rect key="frame" x="20" y="60" width="374" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="oG7-5H-wvx"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="okayClicked:" destination="CZg-za-Xrw" eventType="primaryActionTriggered" id="NR3-Vb-dte"/>
-                                </connections>
-                            </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="PML-TQ-fzX">
                                 <rect key="frame" x="27" y="814" width="360" height="40"/>
                                 <subviews>
@@ -394,24 +380,38 @@
                                     <constraint firstAttribute="height" constant="40" id="axC-46-XuD"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="3qa-97-qFd">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="بحث أسم الفائز" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lvB-6h-fa5">
+                                <rect key="frame" x="20" y="226" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="oG7-5H-wvx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="okayClicked:" destination="CZg-za-Xrw" eventType="primaryActionTriggered" id="NR3-Vb-dte"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.98999999999999999" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="PML-TQ-fzX" firstAttribute="centerX" secondItem="70K-jx-1jP" secondAttribute="centerX" id="1Tu-Rt-COp"/>
                             <constraint firstItem="PML-TQ-fzX" firstAttribute="bottom" secondItem="PqG-k2-4Ar" secondAttribute="bottom" constant="-8" id="7Zz-I1-l2h"/>
                             <constraint firstItem="3qa-97-qFd" firstAttribute="top" secondItem="PqG-k2-4Ar" secondAttribute="top" id="8ne-rh-a4t"/>
-                            <constraint firstItem="lvB-6h-fa5" firstAttribute="top" secondItem="PqG-k2-4Ar" secondAttribute="top" constant="16" id="9sc-xa-Tkj"/>
                             <constraint firstItem="PqG-k2-4Ar" firstAttribute="bottom" secondItem="3qa-97-qFd" secondAttribute="bottom" id="BTj-Mj-2i5"/>
                             <constraint firstItem="PqG-k2-4Ar" firstAttribute="trailing" secondItem="5dY-hv-CtE" secondAttribute="trailing" constant="8" id="DDr-wS-aWg"/>
                             <constraint firstItem="lvB-6h-fa5" firstAttribute="leading" secondItem="PqG-k2-4Ar" secondAttribute="leading" constant="20" id="I5m-Qf-61V"/>
                             <constraint firstItem="5dY-hv-CtE" firstAttribute="leading" secondItem="PqG-k2-4Ar" secondAttribute="leading" constant="8" id="KOw-di-5Lc"/>
                             <constraint firstItem="3qa-97-qFd" firstAttribute="leading" secondItem="PqG-k2-4Ar" secondAttribute="leading" id="Ojd-gX-fdA"/>
-                            <constraint firstItem="mrx-W2-FSh" firstAttribute="top" secondItem="lvB-6h-fa5" secondAttribute="bottom" constant="16" id="W5w-TL-lpw"/>
-                            <constraint firstItem="5dY-hv-CtE" firstAttribute="top" secondItem="mrx-W2-FSh" secondAttribute="bottom" constant="8" id="f8V-C7-3b0"/>
+                            <constraint firstItem="lvB-6h-fa5" firstAttribute="top" secondItem="mrx-W2-FSh" secondAttribute="bottom" constant="16" id="SEa-00-cXY"/>
+                            <constraint firstItem="5dY-hv-CtE" firstAttribute="top" secondItem="lvB-6h-fa5" secondAttribute="bottom" constant="8" id="fSw-n5-Vkk"/>
                             <constraint firstItem="mrx-W2-FSh" firstAttribute="centerX" secondItem="70K-jx-1jP" secondAttribute="centerX" id="hDL-9y-k0B"/>
                             <constraint firstItem="PqG-k2-4Ar" firstAttribute="trailing" secondItem="3qa-97-qFd" secondAttribute="trailing" id="lzy-2R-Tk1"/>
                             <constraint firstItem="5dY-hv-CtE" firstAttribute="bottom" secondItem="PML-TQ-fzX" secondAttribute="top" constant="-50" id="pxg-8Y-b8o"/>
                             <constraint firstItem="PqG-k2-4Ar" firstAttribute="trailing" secondItem="lvB-6h-fa5" secondAttribute="trailing" constant="20" id="vH8-bg-gU3"/>
+                            <constraint firstItem="mrx-W2-FSh" firstAttribute="top" secondItem="PqG-k2-4Ar" secondAttribute="top" constant="16" id="wKc-Pt-8v5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PqG-k2-4Ar"/>
                         <variation key="default">
@@ -567,7 +567,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="guk-wm-Czi" customClass="CardView" customModule="KingFaisalPrice" customModuleProvider="target">
-                                <rect key="frame" x="35.666666666666657" y="324.66666666666669" width="342.66666666666674" height="246.66666666666669"/>
+                                <rect key="frame" x="35.666666666666657" y="198" width="342.66666666666674" height="500"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QwO-aN-Xdh">
                                         <rect key="frame" x="307" y="8" width="20" height="22"/>
@@ -581,20 +581,18 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ee9-Mc-Z4l">
-                                        <rect key="frame" x="8" y="37.666666666666629" width="326.66666666666669" height="201"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="201" id="u9Q-wK-Mp4"/>
-                                        </constraints>
+                                        <rect key="frame" x="8" y="38" width="326.66666666666669" height="454"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="342.67000000000002" id="G5l-jN-02m"/>
-                                    <constraint firstAttribute="height" constant="246.66999999999999" id="SUj-pR-Icf"/>
+                                    <constraint firstAttribute="height" constant="500" id="SUj-pR-Icf"/>
                                     <constraint firstAttribute="trailing" secondItem="QwO-aN-Xdh" secondAttribute="trailing" constant="15.67" id="Xgq-SG-B0i"/>
                                     <constraint firstItem="Ee9-Mc-Z4l" firstAttribute="leading" secondItem="guk-wm-Czi" secondAttribute="leading" constant="8" id="fUb-sz-ue2"/>
                                     <constraint firstItem="QwO-aN-Xdh" firstAttribute="top" secondItem="guk-wm-Czi" secondAttribute="top" constant="8" id="jDp-QN-hkv"/>
                                     <constraint firstAttribute="bottom" secondItem="Ee9-Mc-Z4l" secondAttribute="bottom" constant="8" id="mYF-El-W3m"/>
+                                    <constraint firstItem="Ee9-Mc-Z4l" firstAttribute="top" secondItem="QwO-aN-Xdh" secondAttribute="bottom" constant="8" id="sqG-uu-wMM"/>
                                     <constraint firstAttribute="trailing" secondItem="Ee9-Mc-Z4l" secondAttribute="trailing" constant="8" id="xxb-pl-9DY"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>

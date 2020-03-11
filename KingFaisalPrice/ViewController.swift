@@ -26,6 +26,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     var winnersOn: Bool?
     
+    var aboutOn: Bool?
+    
     var ln = Ln()
     @IBOutlet weak var buttonEnter: UIButton!
     
@@ -37,7 +39,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         buttonEnter.setTitle(ln.enter, for: .normal)
         languageButton.setTitle(ln.language, for: .normal)
         
-        picker1Data = [ln.introductionWord,ln.angayza,ln.categories,ln.nomination,ln.winners]
+        picker1Data = [ln.introductionWord,ln.angayza,ln.categories,ln.nomination,ln.winners,ln.contactus]
         
         picker2Data.append(choiceItem(name: ln.khaledword, link: ln.khaledlink, video: "", certif: "", file: ""))
         
@@ -79,14 +81,20 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }else
         {
             
-            let ass = picker2Data[selected!].link
-            print(ass!)
-            
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             
             let vc = storyboard.instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
             
-            vc.link = ass
+            if(aboutOn!)
+            {
+                vc.link = ln.contactusLink
+            }else
+            {
+                let ass = picker2Data[selected!].link
+                print(ass!)
+                vc.link = ass
+            }
+            
             
             self.navigationController?.pushViewController(vc, animated: true)
         }
@@ -223,12 +231,14 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             {
                 picker2.isHidden = false
                 winnersOn = false
+                aboutOn = false
                 picker2Data.append(choiceItem(name: ln.khaledword, link: ln.khaledlink, video: "", certif: "", file: ""))
 
             }else if(row == 1)
             {
                 picker2.isHidden = false
                 winnersOn = false
+                aboutOn = false
                 
                 picker2Data.append(choiceItem(name: ln.nabza, link: ln.nabzaLink, video: "", certif: "", file: ""))
                 picker2Data.append(choiceItem(name: ln.enshaa, link: ln.enshaaLink, video: "", certif: "", file: ""))
@@ -244,30 +254,36 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             {
                 picker2.isHidden = false
                 winnersOn = false
+                aboutOn = false
                 
-                picker2Data.append(choiceItem(name: ln.science, link: ln.scienceLink, video: "", certif: "", file: ""))
                 picker2Data.append(choiceItem(name: ln.eslam, link: ln.eslamLink, video: "", certif: "", file: ""))
                 picker2Data.append(choiceItem(name: ln.studies, link: ln.studiesLink, video: "", certif: "", file: ""))
                 picker2Data.append(choiceItem(name: ln.arabic, link: ln.arabicLink, video: "", certif: "", file: ""))
                 picker2Data.append(choiceItem(name: ln.medical, link: ln.medicalLink, video: "", certif: "", file: ""))
-                
-            
-                
+                picker2Data.append(choiceItem(name: ln.science, link: ln.scienceLink, video: "", certif: "", file: ""))
+               
             }
             else if(row == 3)
             {
                 picker2.isHidden = false
                 winnersOn = false
-                picker2Data.append(choiceItem(name: ln.science, link: ln.nominationLink, video: "", certif: "", file: ""))
-                picker2Data.append(choiceItem(name: ln.eslam, link: ln.nominationLink, video: "", certif: "", file: ""))
-                picker2Data.append(choiceItem(name: ln.studies, link: ln.nominationLink, video: "", certif: "", file: ""))
-                picker2Data.append(choiceItem(name: ln.arabic, link: ln.nominationLink, video: "", certif: "", file: ""))
-                picker2Data.append(choiceItem(name: ln.medical, link: ln.nominationLink, video: "", certif: "", file: ""))
+                aboutOn = false
+                picker2Data.append(choiceItem(name: ln.eslam, link: ln.eslamNominationLink, video: "", certif: "", file: ""))
+                picker2Data.append(choiceItem(name: ln.studies, link: ln.studiesNominationLink, video: "", certif: "", file: ""))
+                picker2Data.append(choiceItem(name: ln.arabic, link: ln.arabicNominationLink, video: "", certif: "", file: ""))
+                picker2Data.append(choiceItem(name: ln.medical, link: ln.medicalNominationLink, video: "", certif: "", file: ""))
+                picker2Data.append(choiceItem(name: ln.science, link: ln.scienceNominationLink, video: "", certif: "", file: ""))
                  
             }else if(row == 4)
             {
                 picker2.isHidden = true
                 winnersOn = true
+                aboutOn = false
+            }else if(row == 5)
+            {
+                picker2.isHidden = true
+                winnersOn = false
+                aboutOn = true
             }
             
             picker2.reloadAllComponents()

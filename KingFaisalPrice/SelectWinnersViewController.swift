@@ -50,8 +50,8 @@ class SelectWinnersViewController: UIViewController, UIPickerViewDelegate, UIPic
         }
         
         picker2Data.append(ln.eslam)
-        picker2Data.append(ln.arabic)
         picker2Data.append(ln.studies)
+        picker2Data.append(ln.arabic)
         picker2Data.append(ln.medical)
         picker2Data.append(ln.science)
         

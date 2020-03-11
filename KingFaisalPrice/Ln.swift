@@ -15,7 +15,7 @@ class Ln {
    
     var khaledword = MOLHLanguage.isRTLLanguage() ? "كلمة الأمير خالد الفيصل" : "In The Words of Prince Khalid Alfaisal"
     
-    var khaledlink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/coqt/" : "https://online.fliphtml5.com/miyqo/mihh/"
+    var khaledlink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/ar_Prince-Khalid" : "https://www.kingfaisalappstore.org/about/en_Prince-Khalid"
 
     //---------------
     
@@ -38,19 +38,19 @@ class Ln {
     var mas2olen = MOLHLanguage.isRTLLanguage() ? "المسؤولون عن الجائزة" : "KFP Management"
     
     
-    var nabzaLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/iujs/" : "https://online.fliphtml5.com/miyqo/awzt/"
+    var nabzaLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/arSummary" : "https://www.kingfaisalappstore.org/about/arSummary"
     
-    var enshaaLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/gqvq/" : "https://online.fliphtml5.com/miyqo/uyze/"
+    var enshaaLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/arEstablishment" : "https://www.kingfaisalappstore.org/about/enEstablishment"
     
-    var ahdafLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/cnwp/" : "https://online.fliphtml5.com/miyqo/dnvq/"
+    var ahdafLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/arObjectives" : "https://www.kingfaisalappstore.org/about/enObjectives"
     
-    var amanaLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/fvqv/" : "https://online.fliphtml5.com/miyqo/jtsu/"
+    var amanaLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/enObjectives" : "https://www.kingfaisalappstore.org/about/enGeneral-Secretariat"
     
-    var tare5Link = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/soje/" : "https://online.fliphtml5.com/miyqo/rxhx/"
+    var tare5Link = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/arHistory" : "https://www.kingfaisalappstore.org/about/enHistory"
     
-    var mokawnatLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/pjat/" : "https://online.fliphtml5.com/miyqo/ccml/"
+    var mokawnatLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/enHistory" : "https://www.kingfaisalappstore.org/about/enComponents"
     
-    var hay2aLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/zcif/" : "https://online.fliphtml5.com/miyqo/rqwp/"
+    var hay2aLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/about/arCommittee" : "https://www.kingfaisalappstore.org/about/arCommittee"
     
     var mas2olenLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/nhln/" : "https://online.fliphtml5.com/miyqo/dgde/"
 
@@ -72,15 +72,15 @@ class Ln {
     var science = MOLHLanguage.isRTLLanguage() ? "العلوم" : "Science"
     
     
-    var eslamLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/zuzk/" : "https://online.fliphtml5.com/miyqo/ykoc/"
+    var eslamLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Categories/arService_Islam" : "https://www.kingfaisalappstore.org/Categories/arService_Islam"
     
-    var arabicLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/iltt/" : "https://online.fliphtml5.com/miyqo/mqhh/"
+    var arabicLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Categories/arArabic_Literature" : "https://www.kingfaisalappstore.org/Categories/arArabic_Literature"
     
-    var studiesLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/qbma/" : "https://online.fliphtml5.com/miyqo/sayj/"
+    var studiesLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Categories/arIslamicStudies" : "https://www.kingfaisalappstore.org/Categories/enIslamicStudies"
     
-    var medicalLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/lecy/" : "https://online.fliphtml5.com/miyqo/qeaz/"
+    var medicalLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Categories/enIslamicStudies" : "https://www.kingfaisalappstore.org/Categories/enMedicine"
     
-    var scienceLink = MOLHLanguage.isRTLLanguage() ? "https://online.fliphtml5.com/miyqo/trpx/" : "https://online.fliphtml5.com/miyqo/suzk/"
+    var scienceLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Categories/arScience" : "https://www.kingfaisalappstore.org/Categories/enScience"
 
     
     //---------------
@@ -90,7 +90,21 @@ class Ln {
     
     var nominationLink = MOLHLanguage.isRTLLanguage() ? "https://kingfaisalprize.org/nomination/login.php" : "https://kingfaisalprize.org/nomination/login.php"
     
+    var eslamNominationLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Nominations/ar_service" : "https://www.kingfaisalappstore.org/Nominations/en_service"
+    
+    var arabicNominationLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Nominations/ar_arabic" : "https://www.kingfaisalappstore.org/Nominations/en_arabic"
+    
+    var studiesNominationLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Nominations/ar_studies" : "https://www.kingfaisalappstore.org/Nominations/en_studie"
+    
+    var medicalNominationLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Nominations/ar_medicine" : "https://www.kingfaisalappstore.org/Nominations/en_medicine"
+    
+    var scienceNominationLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/Nominations/ar_science" : "https://www.kingfaisalappstore.org/Nominations/en_science"
+    
     var winners = MOLHLanguage.isRTLLanguage() ? "الفائزون بالجائزه" : "Winners"
+    
+    var contactus = MOLHLanguage.isRTLLanguage() ? "تواصل معنا" : "Contact Us"
+    
+    var contactusLink = MOLHLanguage.isRTLLanguage() ? "https://www.kingfaisalappstore.org/ar_contactUs" : "https://www.kingfaisalappstore.org/en_contactUs"
     
     //---------------
     
